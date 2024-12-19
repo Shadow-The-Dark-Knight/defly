@@ -3,7 +3,8 @@
 import { React, useState } from "react";
 import { X, Settings } from "lucide-react";
 import Button from "@/components/mainButton";
-import Quality from "@/components/labels/quality";
+import Keybind from "@/components/labels/keybind";
+import Mechanic from "@/components/labels/mech";
 
 export default function Live() {
   const [isOpen, setOpen] = useState(false);
@@ -35,8 +36,8 @@ export default function Live() {
               <Button label="Keybinds" href="/keybind" />
               <Button label="Mechanics" href="/mechanic" />
             </div>
-            <div>
-              <Quality />
+            <div className="mt-[240px]">
+              <Mechanic />
             </div>
           </div>
         </div>

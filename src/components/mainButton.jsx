@@ -7,7 +7,9 @@ export default function dButton({ variant, label, href }) {
   return (
     <div className="p-3 m-auto">
       <Link href={href}>
-        <Button className={buttonVariants({ variant })}>{label}</Button>
+        <Button className={`${buttonVariants({ variant })} font-semibold`}>
+          {label}
+        </Button>
       </Link>
     </div>
   );

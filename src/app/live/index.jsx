@@ -3,7 +3,6 @@
 import { React, useState } from "react";
 import { X, Settings } from "lucide-react";
 import Button from "@/components/mainButton";
-import Quality from "@/components/labels/quality";
 
 export default function Live() {
   const [isOpen, setOpen] = useState(false);
@@ -31,8 +30,8 @@ export default function Live() {
             <Button label="Quality" href="/setting" />
             <Button label="Controls" href="/control" />
             <Button label="Chat" href="/chat" />
-            <Button label="Keybinds" href="keybinds" />
-            <Button label="Mechanics" href="/theme" />
+            <Button label="Keybinds" href="/keybind" />
+            <Button label="Mechanics" href="/mechanic" />
           </div>
         </div>
       )}
