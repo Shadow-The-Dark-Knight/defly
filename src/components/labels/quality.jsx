@@ -3,7 +3,7 @@ import Button from "@/components/mainButton";
 
 export default function Quality() {
   return (
-    <div className="grid grid-cols-3 ">
+    <div className="grid grid-cols-3 gap-1 ">
       <Button label="High" href="/setting" variant="secondary" />
       <Button label="Medium" href="/setting" variant="secondary" />
       <Button label="Low" href="/setting" variant="secondary" />

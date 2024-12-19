@@ -3,7 +3,6 @@
 import { React, useState } from "react";
 import { X, Settings } from "lucide-react";
 import Button from "@/components/mainButton";
-import Quality from "@/components/labels/quality";
 
 export default function Live() {
   const [isOpen, setOpen] = useState(false);
@@ -27,12 +26,14 @@ export default function Live() {
               onClick={toggleSetting}
             />
           </div>
-          <div className="px-7">
-            <Button label="Quality" href="/setting" />
-            <Button label="Controls" href="/control" />
-            <Button label="Chat" href="/chat" />
-            <Button label="Keybinds" href="keybinds" />
-            <Button label="Mechanics" href="/theme" />
+          <div className="flex">
+            <div className="px-7">
+              <Button label="Quality" href="/setting" />
+              <Button label="Controls" href="/control" />
+              <Button label="Chat" href="/chat" />
+              <Button label="Keybinds" href="keybinds" />
+              <Button label="Mechanics" href="/theme" />
+            </div>
           </div>
         </div>
       )}
