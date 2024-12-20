@@ -3,8 +3,7 @@
 import { React, useState } from "react";
 import { X, Settings } from "lucide-react";
 import Button from "@/components/mainButton";
-import { Checkbox } from "@/components/ui/checkbox";
-import Label from "@/components/labels/terms";
+import Chat from "@/components/labels/chat";
 
 export default function Live() {
   const [isOpen, setOpen] = useState(false);
@@ -32,15 +31,12 @@ export default function Live() {
             <div className="px-7">
               <Button label="Quality" href="/setting" />
               <Button label="Controls" href="/control" />
-              <div className="flex flex-wrap items-center space-x-2">
-                <Button label="Chat" href="/chat" />
-                <Checkbox />
-                <Label text="Disable Chat" />
-                <Checkbox />
-                <Label text="Disable Log" />
-              </div>
+              <Button label="Chat" href="/chat" />
               <Button label="Keybinds" href="/keybind" />
               <Button label="Mechanics" href="/mechanic" />
+            </div>
+            <div className="flex justify-center items-center">
+              <Chat />
             </div>
           </div>
         </div>
