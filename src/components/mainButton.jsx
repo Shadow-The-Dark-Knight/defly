@@ -3,11 +3,14 @@ import Link from "next/link";
 
 import React from "react";
 
-export default function dButton({ variant, label, href }) {
+export default function dButton({ variant, label, href, onClick }) {
   return (
-    <div className="p-3 m-auto">
+    <div className="m-auto p-3">
       <Link href={href}>
-        <Button className={`${buttonVariants({ variant })} font-semibold`}>
+        <Button
+          className={`${buttonVariants({ variant })} font-semibold`}
+          onClick={onClick}
+        >
           {label}
         </Button>
       </Link>

@@ -12,17 +12,17 @@ export default function Live() {
   };
 
   return (
-    <div className=" flex justify-end h-scroll mt-3 ">
+    <div className="h-scroll mt-3 flex justify-end">
       {/* ! is used to put compoent in previous state*/}
       {!isOpen && (
-        <Settings className="text-white h-12 w-20" onClick={toggleSetting} />
+        <Settings className="h-12 w-20 text-white" onClick={toggleSetting} />
       )}
 
       {isOpen && (
-        <div className=" h-scroll mt-1.5  bg-overlay rounded-md lg:w-4/12 md:w-8/12 px-1 ">
+        <div className="h-scroll mt-1.5 rounded-md bg-overlay px-1 md:w-8/12 lg:w-4/12">
           <div className="flex justify-end">
             <X
-              className=" text-white items-end cursor-pointer h-7 w-12"
+              className="h-7 w-12 cursor-pointer items-end text-white"
               onClick={toggleSetting}
             />
           </div>

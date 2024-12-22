@@ -4,7 +4,7 @@ import Label from "./terms";
 
 export default function Keybind() {
   return (
-    <div className="grid grid-cols-3 gap-1 items-center ">
+    <div className="grid grid-cols-3 items-center gap-1">
       <Label text="Move up" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />

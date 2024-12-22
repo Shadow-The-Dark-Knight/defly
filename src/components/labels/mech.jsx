@@ -4,7 +4,7 @@ import Label from "./terms";
 
 export default function Mechanic() {
   return (
-    <div className="grid grid-cols-3 gap-1 items-center ">
+    <div className="grid grid-cols-3 items-center gap-1">
       <Label text="Superpower" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
