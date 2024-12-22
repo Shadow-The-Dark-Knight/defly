@@ -3,6 +3,7 @@ import Button from "@/components/mainButton";
 import Title from "../ui/title";
 
 export default function Mechanic() {
+  // this will work
   return (
     <div className="grid grid-cols-3 items-center gap-1">
       <Label text="Superpower" />
