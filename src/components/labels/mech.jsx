@@ -4,7 +4,6 @@ import Title from "../ui/title";
 import Label from "./terms";
 
 export default function Mechanic() {
-  // this will work
   return (
     <div className="grid grid-cols-3 items-center gap-1">
       <Label text="Superpower" />
