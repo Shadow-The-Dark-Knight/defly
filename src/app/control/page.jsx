@@ -32,12 +32,7 @@ export default function Live() {
           <div className="flex">
             <div className="px-7">
               <Button label="Quality" href="/setting" />
-
-<<<<<<< HEAD
-              <div className="flex items-center justify-center space-x-2 text-white">
-=======
-              <div className="flex items-center space-x-7 ">
->>>>>>> 52106017a96618d11e3289cc92c241855a47816d
+              <div className="flex items-center space-x-7">
                 <Button label="Controls" href="/control" />
                 <Control />
               </div>

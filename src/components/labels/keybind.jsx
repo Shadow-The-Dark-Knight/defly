@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@/components/mainButton";
 import Title from "../ui/title";
+import Label from "./terms";
 
 export default function Keybind() {
   return (
