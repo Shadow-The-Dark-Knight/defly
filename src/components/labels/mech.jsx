@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@/components/mainButton";
-import Label from "./terms";
+import Title from "../ui/title";
 
 export default function Mechanic() {
   return (
@@ -8,16 +8,16 @@ export default function Mechanic() {
       <Label text="Superpower" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
-      <Label text="Turn left" />
+      <Title text="Turn left" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
-      <Label text="Turn right" />
+      <Title text="Turn right" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
-      <Label text="Show teamates" />
+      <Title text="Show teamates" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
-      <Label text="Move with mouse" />
+      <Title text="Move with mouse" />
       <Button label="" href="" variant="secondary" />
       <Button label="" href="" variant="secondary" />
     </div>

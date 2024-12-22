@@ -4,7 +4,8 @@ import { React, useState } from "react";
 import { X, Settings } from "lucide-react";
 import Button from "@/components/mainButton";
 import { Checkbox } from "@/components/ui/checkbox";
-import Label from "@/components/labels/terms";
+import Label from "@/components/ui/terms";
+import Control from "@/components/labels/control";
 
 export default function Live() {
   const [isOpen, setOpen] = useState(false);
@@ -32,10 +33,13 @@ export default function Live() {
             <div className="px-7">
               <Button label="Quality" href="/setting" />
 
+<<<<<<< HEAD
               <div className="flex items-center justify-center space-x-2 text-white">
+=======
+              <div className="flex items-center space-x-7 ">
+>>>>>>> 52106017a96618d11e3289cc92c241855a47816d
                 <Button label="Controls" href="/control" />
-                <Checkbox id="terms1" />
-                <Label text="Move with mouse" />
+                <Control />
               </div>
               <Button label="Chat" href="/chat" />
               <Button label="Keybinds" href="/keybind" />
